@@ -40,7 +40,7 @@ bool RushHourMgmt::IsRushHour(float time) {
 
 /**
  *
- *   AddTimeSpan    O(logn)
+ *   AddTimeSpan    O(n)
  *
  *    Adds a time span such that there are no duplicates.
  *    Uses Map upper_bound() to get the position in which given time span would be inserted,
